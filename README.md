@@ -133,7 +133,8 @@ CKEDITOR_CONFIGS = {
 python manage.py collectstatistic
 ```
 
-### That's all about it. Keep coding...
+### That's all about it.
+
 **Thank you for keeping patience.**
 **_If you love it do mark the [Repository](https://github.com/mhhabib/Integrate-Django-Ckeditor) as **stars** or **forks**_**
 
