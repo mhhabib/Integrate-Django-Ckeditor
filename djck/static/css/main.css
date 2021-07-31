@@ -1,0 +1,172 @@
+body {
+    background-color: #E9EBF7 !important;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+*::selection {
+    background: #ff7b54;
+    color: white;
+}
+
+.navbar-custom {
+    background: #283c86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86);
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255, 255, 255, .8);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: gold;
+    font-weight: 700;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.header h3 {
+    color: #007BFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-transform: uppercase;
+}
+
+.header p {
+    color: #696a6f;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.post-block {
+    width: 80%;
+}
+
+@media only screen and (max-width : 768px) {
+    .post-block {
+        width: 100%;
+    }
+}
+
+.post-block,
+.no-post-block {
+    background-color: #f7f8fc;
+    padding: 20px 15px;
+    border-radius: 10px;
+    border: 1px solid #babcc6;
+}
+
+.post-block label {
+    color: coral;
+    font-weight: bold;
+}
+
+.no-post-block h3 {
+    font-family: 'Merienda One',
+        cursive;
+    text-align: center;
+    font-size: 36px;
+    color: #45a247;
+}
+
+.no-post-block h3 span {
+    background-color: #283c86;
+    padding: 2px 15px;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+.no-post-block p {
+    font-family: 'Aladin',
+        cursive;
+    text-align: center;
+    font-size: 24px;
+    color: #283c86;
+}
+
+.no-post-block p a {
+    font-family: 'Style Script',
+        cursive;
+    border-radius: 4px;
+    border: none;
+    background-color: #45a247;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 0px 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.no-post-block p a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.no-post-block p a span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.no-post-block p a:hover span {
+    padding-right: 25px;
+}
+
+.no-post-block p a:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.btn-submit {
+    background: #283c86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #45a247, #283c86);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #45a247, #283c86);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-submit:hover {
+    background: #283c86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
