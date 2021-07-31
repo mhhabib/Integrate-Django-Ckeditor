@@ -33,6 +33,9 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+![screencapture-127-0-0-1-8000-create-2021-07-31-16_33_51](https://user-images.githubusercontent.com/17263976/127737286-1ba52313-6b2a-429f-9b8c-74dc2602f259.png)
+
+![screencapture-127-0-0-1-8000-2021-07-31-16_34_25](https://user-images.githubusercontent.com/17263976/127737295-bb36f848-4da8-4348-afd9-d404400469aa.png)
 
 
 # If you need to understand how it works or setup CKEditor of your own way then follow
