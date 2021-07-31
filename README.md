@@ -3,6 +3,41 @@
 One of the popular Django richtext editor is CKEditor. It provides a `RichTextField`, `RichTextUploadingField`, `CKEditorWidget` and `CKEditorUploadingWidget` utilizing CKEditor
 with image uploading and browsing support included.
 
+This repository contains a demo project using the CKEditor plugin. Features contain in this repository are
+- Post a blog
+- Cardview blog post on the home page
+- Details post on the Details page
+- Contain post date
+- Sorted post by ordering post date
+
+You can use this project for free and without keeping as the author of this repository.
+- fork the [repository](https://github.com/mhhabib/Integrate-Django-Ckeditor) and clone it in your preferable directory
+- active virtual environment
+```py
+  env\Script\active # for windows user  
+```
+- Install requirements.txt file
+```bash
+pip install -r requirements.txt
+```
+- Ensure the migration 
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+- Create the superuser
+```bash
+  python manage.py createsuperuser
+```
+- Run the application
+```bash
+python manage.py runserver
+```
+
+
+# If you need to understand how it works or setup CKEditor of your own way then follow
+
+
 ## Steps to integrate CKEditor in Django
 - [ ] Install django-ckeditor to your project path
   
